@@ -1,0 +1,80 @@
+/* GERAL */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: linear-gradient(-50deg, #2AF977, #1CABD5);
+	min-height: 100vh;
+}
+
+/* CABEÇALHO */
+header {
+	width: 100%;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.topo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	font-size: 50px;
+	font-family: Calibri;
+}
+
+/* CORPO */
+main {
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.cadastro {
+	background-color: #CCCCCC;
+	width: 70%;
+	border-radius: 30px;
+	padding: 40px 20px 40px 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cadastro-int {
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+}
+
+.cadastro input, select {
+	width: 330px;
+	height: 30px;
+	border-radius: 10px;
+	border: 1px solid #CCCCCC;
+	outline: none;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.formulario {
+	margin: 30px;
+}
+
+.botoes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.botoes input {
+	width: 170px;
+	height: 30px;
+	background-image: linear-gradient(-50deg, #2af977,#1cabd5);
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	cursor: pointer;
+}
