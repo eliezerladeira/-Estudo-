@@ -1,0 +1,127 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* HEADER */
+.container-header {
+    background-color: #4B0082;
+    max-width: 100%;
+    padding: 25px;
+    margin-bottom: -30px;
+}
+
+.container-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    color: #d7d7d7;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container-header ul li {
+    padding: 10px;
+    display: block;
+}
+
+.container-header ul li:hover {
+    color: #FFFAFA;
+    cursor: pointer;
+}
+
+/* SECTION */
+.container-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1080px;
+    margin-top: 50px;
+}
+
+.info-section {
+    flex: 1;
+    text-align: justify;
+}
+
+.info-section .p1 {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 500;
+    color: #4B0082;
+    font-size: 20px;
+}
+
+.info-section h1, h3 {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.info-section .p2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.info-section .border {
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px;
+    background-color: #4B0082;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.info-section .border:hover {
+    cursor: pointer;
+}
+ 
+.info-section .p3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #4B0082;
+    text-shadow: 0px 1px black;
+}
+
+.info-section a {
+    text-decoration: none;
+    color: #007dda;
+}
+
+.info-section a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.img-section {
+    flex: 2;
+    align-self: flex-end;
+}
+
+.img-section img {
+    width: 600px;
+    display: block;
+    margin-left: 80px;
+} 
+
+.info-section {
+    width: 300px;
+    height: 400px;
+}
+
+.info-cell {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
