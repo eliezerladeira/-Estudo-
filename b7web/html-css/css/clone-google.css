@@ -1,0 +1,195 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+}
+
+header a {
+    color: rgba(0,0,0,0.87);
+    margin-right: 13px;
+    font-size: 13px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 21px;
+    height: 21px;    
+    padding:6px;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 15px;    
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItens {
+    width: 4.9px;
+    height: 4.9px;
+    margin: 0.4px; 
+    margin-bottom: 0;   
+    border-radius: 50%;
+    background-color: #5f6368;
+}
+
+header button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a73e8;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid transparent;
+    width: 96px;
+    height: 36px;
+    border-radius: 3px;
+    margin-right: 22px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+
+main .logo {
+    width: 375px;
+    height: auto;
+}
+
+.campoPesquisa {
+    display: flex;
+    width: 582px;
+    height: 44px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    border: 1px solid #dfe1e5; 
+    border-radius: 34px;   
+}
+
+.campoPesquisa .inicio {
+    margin: 0 15px 0 15px;
+}
+
+.campoPesquisa #pesquisar {
+    height: 34px;
+    width: 447px;
+    border: none;
+    outline: none;
+}
+
+.campoPesquisa .final {
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;    
+    height: 15px;
+    width:40px;
+}
+
+.fa-search {
+    color: #9aa0a6;
+}
+
+.fa-keyboard, .fa-microphone {
+    color: #7b7b7b;
+    margin-right: 10px;    
+}
+
+.botoes {
+    margin-top: 30px;
+}
+
+.botoes button {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;    
+    color: #202124;
+    height: 40px;
+    width: 140px;
+    margin: 11px 4px;    
+    font-size: 14px;
+    border-radius: 4px;
+    outline: 0;
+    border-style: none;
+}
+
+.botoes button:hover {
+    outline: 0;
+    border: 1px solid #dadce0;
+}
+
+footer {
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 40px; 
+    width: 100%;           
+    background-color: #f2f2f2;
+}
+
+footer a {
+    font-size: 13px;
+    color: #70757a;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .informacoes, footer .legal {
+    align-items: center;
+    display: flex;         
+    width: 350px;
+    justify-content: space-evenly;
+}
+
+@media (max-width:590px) {
+    .campoPesquisa {
+        width: 400px;        
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .campoPesquisa {
+        width: 320px;
+    }
+
+    footer a {
+        font-size: 8px;
+    }
+}
+
+@media (max-width:350px) {
+    .campoPesquisa {
+        width: 280px;
+    }
+}
